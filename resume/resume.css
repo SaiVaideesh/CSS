@@ -1,0 +1,43 @@
+
+#one{
+    background-color: antiquewhite;
+    text-decoration:underline ;
+    text-shadow: 12px 5px 11px gray;
+    border-radius: 20px;
+}
+#two{
+    line-height: 35px;
+}
+#three{
+    background-color: rgb(182, 177, 171);
+    text-decoration:underline ;
+    text-shadow: 12px 5px 11px gray;
+    border-radius: 10px;
+}
+#five{
+    background-color: rgb(182, 177, 171);
+    text-decoration:underline ;
+    text-shadow: 12px 5px 11px gray;
+    border-radius: 10px;
+}
+#seven{
+    background-color: rgb(182, 177, 171);
+    text-decoration:underline ;
+    text-shadow: 12px 5px 11px gray;
+    border-radius: 10px;
+}
+#nine{
+    background-color: rgb(182, 177, 171);
+    text-decoration:underline ;
+    text-shadow: 12px 5px 11px gray;
+    
+}
+#img{
+    border-radius: 500px;
+    box-shadow: 5px 5px 10px;
+    position: relative;
+    top: -45px; 
+}
+body{
+    background-color: rgb(229, 222, 193);
+}
