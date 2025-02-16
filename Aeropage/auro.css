@@ -1,0 +1,557 @@
+
+/* first div */
+#nav {
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: rgb(223, 235, 243); */
+}
+
+#nav2 {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+div>a {
+    color: rgb(194, 65, 12);
+    text-decoration: none;
+}
+
+#button {
+    display: flex;
+    background-color: rgb(194, 65, 12);
+    align-items: center;
+    color: white;
+    border-radius: px;
+    padding: 15px;
+    height: 20px;
+    border-radius: 20px;
+    margin-top: 15px;
+    width: 150px;
+}
+
+#button:hover {
+    background-color: rgb(117, 40, 9);
+}
+
+#img {
+    display: flex;
+    border-radius: 30px;
+    align-items: center;
+
+}
+
+#page {
+    color: rgb(194, 65, 12);
+}
+
+
+/* first page */
+#one {
+    display: flex;
+    /* background-color: rgb(174,216,245); */
+    justify-content: center;
+    align-items: center;
+
+}
+
+#one>#one1 {
+    justify-content: center;
+    margin-right: 50px;
+}
+
+#one>#one2 {
+    justify-content: center;
+    padding-right: 60px;
+
+}
+
+#input>input {
+    width: 70%;
+    height: 20%;
+    background-color: rgb(199, 207, 210);
+    padding: 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+
+}
+
+#input {
+    background-color: rgb(200, 207, 209);
+    width: 500px;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+#input>button {
+    background-color: rgb(194, 65, 12);
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 100px;
+    border-radius: 15px;
+    color: white;
+}
+
+#input>button:hover {
+    background-color: rgb(117, 40, 9);
+}
+
+#button2 {
+    background-color: rgb(194, 65, 12);
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    color: white;
+    margin-top: 40px;
+}
+
+#button2:hover {
+    background-color: rgb(117, 40, 9);
+}
+
+#one1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding-left: 60px;
+}
+
+
+/*second page */
+#two {
+    display: flex;
+    margin-top: 100px;
+}
+
+#two1 {
+    width: 50%;
+}
+
+#two2 {
+    align-items: center;
+    padding-top: 40px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#two2>h4 {
+    background-color: rgb(251, 222, 206);
+    display: inline-block;
+    outline-color: orange;
+    outline: 10px;
+    padding: 2px 20px;
+    border-radius: 10px;
+    color: rgb(194, 65, 12);
+    margin-top: 50px;
+}
+
+#two1>#img {
+    padding: 80px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+#two>#two1>img {
+    border-radius: 100px;
+    height: 450px;
+    width: 600px;
+}
+
+#two2>ul {}
+
+#button3 {
+    background-color: white;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 40px;
+
+}
+
+#button3:hover {
+    background-color: rgb(194, 65, 12);
+}
+
+/* third page */
+
+#third {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+#third1 {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#third1>center>h4 {
+    background-color: rgb(251, 222, 206);
+    display: inline-block;
+    outline-color: orange;
+    outline: 10px;
+    padding: 2px 20px;
+    border-radius: 10px;
+    color: rgb(194, 65, 12);
+    margin-top: 50px;
+}
+
+/* three boxes */
+
+#threeboxes {
+    display: flex;
+}
+
+#boxone {
+    display: flex;
+    margin: 15px;
+    border-radius: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding-right: 5px;
+    box-shadow: 5px 5px 10px gray;
+
+}
+
+#sub1 {
+    color: white;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#sub1>h1 {
+    background-color: black;
+    padding: 15px;
+    height: 20px;
+    border-radius: 15px;
+    margin-top: -0.1px;
+}
+
+#h1 {
+    font-size: 20px;
+    justify-content: center;
+
+}
+
+#read {
+    margin-top: 50px;
+}
+
+
+/* fouth page */
+
+#fouth {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+#fouth>center>h4 {
+    background-color: rgb(251, 222, 206);
+    display: inline-block;
+    outline-color: orange;
+    outline: 10px;
+    padding: 2px 20px;
+    border-radius: 10px;
+    color: rgb(194, 65, 12);
+    margin-top: 100px;
+}
+
+/* contaners */
+
+#cc {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+#cc1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+#cc>h4 {
+    background-color: rgb(251, 222, 206);
+    display: inline-block;
+    outline-color: orange;
+    outline: 10px;
+    padding: 2px 20px;
+    border-radius: 10px;
+    color: rgb(194, 65, 12);
+    margin-top: 100px;
+}
+#cc1>h4 {
+    background-color: rgb(251, 222, 206);
+    display: inline-block;
+    outline-color: orange;
+    outline: 10px;
+    padding: 2px 20px;
+    border-radius: 10px;
+    color: rgb(194, 65, 12);
+    margin-top: 100px;
+}
+
+#c {
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgb(187, 187, 187);
+    border: 1px solid black;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+#fouth {
+    display: flex;
+    padding-left: 100px;
+    margin-top: 40px;
+
+}
+
+#fouth>#fouthsub1 {
+    width: 50%;
+
+}
+
+#fouth>#fouthsub2 {
+    width: 5%;
+}
+
+#fouthsub1 {
+    /* background-color: aqua; */
+}
+
+#fouthsub2 {
+    /* background-color: antiquewhite; */
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+    margin-left: 30px;
+}
+
+#fouthsub2>img {
+    width: 500px;
+    margin-left: 100px;
+    border-radius: 30px;
+}
+
+#fifth {
+    /* background-color: aqua; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+   width: 70%;
+   border: 1px solid black;
+   border-radius: 30px;
+   box-shadow: 5px 5px 10px rgb(187, 187, 187);
+
+}
+#fifth >#fifthsub{
+  width: 50%;
+  text-align: left;
+  
+}
+#name{
+    width: 250px;
+    height: 30px;
+}
+#email{
+    width: 250px;
+    height: 30px;
+}
+#hed{
+    word-spacing: 210px;
+}
+#subject{
+    width: 512px;
+    height: 30px;
+}
+#message{
+    width: 512px;
+    height: 100px;
+}
+#fifthsub{
+padding: 20px;
+}
+html{
+    scroll-behavior:smooth;
+}
+
+
+
+
+
+/* Default styles for larger screens */
+/* Add your existing CSS here */
+
+/* Media query for screens smaller than 768px (typical mobile devices) */
+@media only screen and (max-width: 768px) {
+    /* Navigation bar adjustments */
+    #nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #nav2 {
+        flex-direction: column;
+        row-gap: 10px;
+        align-items: center;
+    }
+
+    #button {
+        margin-top: 10px;
+    }
+
+    /* First page adjustments */
+    #one {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #one > #one1 {
+        margin-right: 0;
+        padding-left: 0;
+    }
+
+    #one > #one2 {
+        padding-right: 0;
+    }
+
+    #input {
+        width: 90%;
+    }
+
+    #input > input {
+        width: 80%;
+    }
+
+    /* Second page adjustments */
+    #two {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    #two1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #two1 > #img {
+        padding: 20px;
+    }
+
+    #two > #two1 > img {
+        width: 100%;
+        height: auto;
+        border-radius: 50px;
+    }
+
+    #two2 {
+        padding-top: 20px;
+    }
+
+    /* Third page adjustments */
+    #third {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #third1 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* Three boxes adjustments */
+    #threeboxes {
+        flex-direction: column;
+    }
+
+    #boxone {
+        margin: 10px 0;
+    }
+
+    /* Fourth page adjustments */
+    #fouth {
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    #fouth > #fouthsub1 {
+        width: 100%;
+    }
+
+    #fouth > #fouthsub2 {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    #fouthsub2 > img {
+        width: 100%;
+        margin-left: 0;
+        border-radius: 20px;
+    }
+
+    /* Fifth page adjustments */
+    #fifth {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #fifth > #fifthsub {
+        width: 100%;
+        text-align: center;
+    }
+
+    #name,
+    #email,
+    #subject,
+    #message {
+        width: 90%;
+    }
+
+    #hed {
+        word-spacing: normal;
+    }
+}
+
+/* Media query for screens smaller than 480px (small mobile devices) */
+@media only screen and (max-width: 480px) {
+    /* Further adjustments for very small screens */
+    #input {
+        width: 100%;
+    }
+
+    #input > input {
+        width: 90%;
+    }
+
+    #button2,
+    #button3 {
+        width: 100%;
+    }
+
+    #two > #two1 > img {
+        border-radius: 30px;
+    }
+
+    #fouthsub2 > img {
+        border-radius: 15px;
+    }
+
+    #fifth {
+        width: 100%;
+    }
+
+    #name,
+    #email,
+    #subject,
+    #message {
+        width: 100%;
+    }
+}
